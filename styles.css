@@ -1,0 +1,77 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1vh;
+    gap: 2vh;
+    background-color: rgb(196, 250, 171);
+    border: 2px solid rgb(74, 233, 0);
+}
+
+.super-item {
+    display: flex;
+    min-height: 5vh;
+    height: auto;
+    gap: 2vh;
+    flex: 1;
+    padding: 2vh;
+    background-color: rgb(175, 255, 228);
+    border: 2px solid rgb(5, 255, 172);
+}
+
+.item {
+    display: flex;
+    height: auto;
+    min-height: 5vh;
+    flex: 1;
+    padding: 2vh;
+    background-color: rgb(248, 255, 183);
+    border: 2px solid rgb(255, 208, 0);
+}
+
+.sub-item {
+    flex: 1.2;
+    padding: 2vh;
+    min-width: 3vh;
+    max-height: auto;
+    margin: auto;
+    background-color: rgb(255, 215, 183);
+    border: 2px solid rgb(255, 117, 5);
+}
+
+.middle-item {
+    display: flex;
+    height: auto;
+    flex: 1;
+    padding: 2vh;
+    background-color: rgb(161, 194, 255);
+    border: 2px solid rgb(10, 96, 255);
+}
+
+.flex-row {
+    display: flex;
+    gap: 1vh;
+    flex-direction: row;
+}
+
+.big-middle-item {
+    flex: 1.5;
+    padding: 2vh;
+    background-color: rgb(255, 211, 211);
+    border: 2px solid rgb(236, 63, 63);
+}
+
+.flex-column {
+    display: flex;
+    gap: 1vh;
+    flex-direction: column;
+}
+
+.small-middle-item {
+    flex: 2;
+    margin-top: auto;
+    min-width: 20vh;
+    min-height: 5vh;
+    padding: 2vh;
+    background-color: rgb(255, 190, 190);
+    border: 2px solid rgb(236, 63, 63);
+}
